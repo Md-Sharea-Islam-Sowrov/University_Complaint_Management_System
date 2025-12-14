@@ -87,6 +87,24 @@ int WinMain()
                 cout<<"Submit your WiFi complain:\n";
             }
         }
+
+         // ---------- FACULTY ----------
+        else if(step == 2)
+        {
+            cout<<"Faculty List:\n";
+            cout<<"1. Md. Raihanullah\n";
+            cout<<"2. Md. Shamsuddoha Alam\n";
+            cout<<"3. Md. Ruhul Amin\n";
+            cout<<"4. Zarin Tasnim Rothy\n";
+        }
+        // ---------- STAFF ----------
+        else if(step == 3)
+        {
+            cout<<"Staff List:\n";
+            cout<<"1. Md. Mojammel\n";
+            cout<<"2. Md. Fayaj\n";
+        }
+    }
        
 
     return 0;
