@@ -105,6 +105,13 @@ int WinMain()
             cout<<"2. Md. Fayaj\n";
         }
     }
+     // ---------- STAFF ----------
+    else if(step == 3)
+    {
+        cout<<"Staff List:\n";
+        cout<<"1. Md. Mojammel\n";
+        cout<<"2. Md. Fayaj\n";
+    }
        
 
     return 0;
