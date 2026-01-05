@@ -1,4 +1,13 @@
-
+/* 
+ Complaint Management System (Console, C++)
+ - Single-file implementation
+ - File storage: "complaints.txt"
+ - Fields per record (pipe-separated):
+   id|role|reporter_id|reporter_name|category|subcategory|description|timestamp|status
+ - Roles: Student, Faculty, Management (management used to view/update)
+ - Basic search / filter / update features
+ - Author: Md. Sharea Islam (project described by user)
+*/
 
 #include <iostream>
 #include <fstream>
